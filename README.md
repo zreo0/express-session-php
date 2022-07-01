@@ -1,4 +1,8 @@
-# express-session
+# express-session-php
+This is a forl of [express-session](https://github.com/expressjs/session)
+
+## Improvement
+support PHPSESSID, match with [connect-memjs-with-php-serialize](https://github.com/zreo0/connect-memjs-with-php-serialize)
 
 [![NPM Version][npm-version-image]][npm-url]
 [![NPM Downloads][npm-downloads-image]][node-url]
@@ -12,13 +16,13 @@ This is a [Node.js](https://nodejs.org/en/) module available through the
 [`npm install` command](https://docs.npmjs.com/getting-started/installing-npm-packages-locally):
 
 ```sh
-$ npm install express-session
+$ npm install express-session-php
 ```
 
 ## API
 
 ```js
-var session = require('express-session')
+var session = require('express-session-php')
 ```
 
 ### session(options)

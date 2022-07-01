@@ -545,6 +545,9 @@ function getcookie(req, name, secrets) {
           debug('cookie signature invalid');
           val = undefined;
         }
+      } else if (name === 'PHPSESSID' && raw && raw.length === 26) {
+        // TODO: length may not dependable
+        val = raw;
       } else {
         debug('cookie unsigned')
       }
