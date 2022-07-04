@@ -1,5 +1,5 @@
 # express-session-php
-This is a forl of [express-session](https://github.com/expressjs/session)
+This is a fork of [express-session](https://github.com/expressjs/session)
 
 ## Improvement
 support PHPSESSID, match with [connect-memjs-with-php-serialize](https://github.com/zreo0/connect-memjs-with-php-serialize)
